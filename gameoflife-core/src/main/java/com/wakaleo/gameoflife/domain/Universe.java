@@ -52,7 +52,7 @@ public class Universe {
                         nextCell = DEAD_CELL;
                     }
                 } else {
-                    if (neighbourCount == 4) {
+                    if ( (neighbourCount == 3) || (neighbourCount == 4) ) {
                         nextCell = LIVE_CELL;
                     } else {
                         nextCell = DEAD_CELL;
